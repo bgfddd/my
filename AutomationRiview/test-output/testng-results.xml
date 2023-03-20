@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-19T14:32:20 CDT" name="Adhoc" finished-at="2023-03-19T14:33:55 CDT" duration-ms="94799">
+    <groups>
+    </groups>
+    <test started-at="2023-03-19T14:32:20 CDT" name="RegressionOfEdge" finished-at="2023-03-19T14:33:51 CDT" duration-ms="90736">
+      <class name="piit.AutomationRiview.Signin">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationRiview.Signin@268f106e]" started-at="2023-03-19T14:32:43 CDT" name="beforeClass" finished-at="2023-03-19T14:32:54 CDT" duration-ms="10399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:piit.AutomationRiview.Signin@268f106e]" started-at="2023-03-19T14:32:54 CDT" name="f" finished-at="2023-03-19T14:33:37 CDT" duration-ms="43556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationRiview.Signin@268f106e]" started-at="2023-03-19T14:33:37 CDT" name="TextVerificationMethod" finished-at="2023-03-19T14:33:44 CDT" depends-on-methods="piit.AutomationRiview.Signin.f" duration-ms="6694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextVerificationMethod -->
+        <test-method signature="TextVerificationHomePage()[pri:3, instance:piit.AutomationRiview.Signin@268f106e]" started-at="2023-03-19T14:33:44 CDT" name="TextVerificationHomePage" finished-at="2023-03-19T14:33:51 CDT" duration-ms="6436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextVerificationHomePage -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationRiview.Signin@268f106e]" started-at="2023-03-19T14:33:51 CDT" name="afterClass" finished-at="2023-03-19T14:33:51 CDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationRiview.Signin -->
+      <class name="piit.AutomationRiview.browsersd">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationRiview.browsersd@5b247367]" started-at="2023-03-19T14:32:20 CDT" name="beforeClass" finished-at="2023-03-19T14:32:31 CDT" duration-ms="10867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationRiview.browsersd@5b247367]" started-at="2023-03-19T14:32:31 CDT" name="f" finished-at="2023-03-19T14:32:43 CDT" duration-ms="12339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationRiview.browsersd@5b247367]" started-at="2023-03-19T14:32:43 CDT" name="afterClass" finished-at="2023-03-19T14:32:43 CDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationRiview.browsersd -->
+    </test> <!-- RegressionOfEdge -->
+    <test started-at="2023-03-19T14:32:20 CDT" name="RegressionOfFirefox" finished-at="2023-03-19T14:33:55 CDT" duration-ms="94799">
+      <class name="piit.AutomationRiview.Signin">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationRiview.Signin@235ecd9f]" started-at="2023-03-19T14:32:48 CDT" name="beforeClass" finished-at="2023-03-19T14:32:57 CDT" duration-ms="9609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:piit.AutomationRiview.Signin@235ecd9f]" started-at="2023-03-19T14:32:57 CDT" name="f" finished-at="2023-03-19T14:33:41 CDT" duration-ms="43401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationRiview.Signin@235ecd9f]" started-at="2023-03-19T14:33:41 CDT" name="TextVerificationMethod" finished-at="2023-03-19T14:33:47 CDT" depends-on-methods="piit.AutomationRiview.Signin.f" duration-ms="6527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextVerificationMethod -->
+        <test-method signature="TextVerificationHomePage()[pri:3, instance:piit.AutomationRiview.Signin@235ecd9f]" started-at="2023-03-19T14:33:47 CDT" name="TextVerificationHomePage" finished-at="2023-03-19T14:33:54 CDT" duration-ms="6377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextVerificationHomePage -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationRiview.Signin@235ecd9f]" started-at="2023-03-19T14:33:54 CDT" name="afterClass" finished-at="2023-03-19T14:33:55 CDT" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationRiview.Signin -->
+      <class name="piit.AutomationRiview.browsersd">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationRiview.browsersd@5d0bf09b]" started-at="2023-03-19T14:32:20 CDT" name="beforeClass" finished-at="2023-03-19T14:32:32 CDT" duration-ms="11755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationRiview.browsersd@5d0bf09b]" started-at="2023-03-19T14:32:32 CDT" name="f" finished-at="2023-03-19T14:32:46 CDT" duration-ms="14143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationRiview.browsersd@5d0bf09b]" started-at="2023-03-19T14:32:46 CDT" name="afterClass" finished-at="2023-03-19T14:32:48 CDT" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationRiview.browsersd -->
+    </test> <!-- RegressionOfFirefox -->
+  </suite> <!-- Adhoc -->
+</testng-results>
