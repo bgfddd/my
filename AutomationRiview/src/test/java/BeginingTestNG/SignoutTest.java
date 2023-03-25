@@ -22,11 +22,12 @@ public class SignoutTest {
 	  @Test (priority = 1)
 	  public void f() throws InterruptedException, IOException {
 		  Home ob = new Home(driver);
-		  ob.Email();
-		  ob.PasswordField();
+		//  ob.Email();
+		//  ob.PasswordField();
 		  Thread.sleep(6000);
 		  ob.ForgotPass();
 		  ForgotPasswordPage it = new ForgotPasswordPage(driver);
+		 
 		  it.UseId();
 		  Thread.sleep(6000);
 		  it.SearchButtonClick();

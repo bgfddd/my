@@ -21,21 +21,24 @@ public class Utility {
 	 @Parameters({"browsers"})
 	@BeforeClass
 	  public void beforeClass(String window) throws InterruptedException {
+	String windows =System.getProperty("user.dir");
+	System.out.println(windows);
+		 
 		if(window.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\fwzna\\eclipse-workspace\\AutomationRiview\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", windows+"\\Drivers\\chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.navigate().to("Https://www.facebook.com");
 			driver.manage().window().maximize();
 			Thread.sleep(6000);
 			
 		  }else if(window.equalsIgnoreCase("Edge")) {
-			System.setProperty("webdriver.edge.driver", "C:\\Users\\fwzna\\eclipse-workspace\\AutomationRiview\\Drivers\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver",windows+"\\Drivers\\msedgedriver.exe");
 			driver= new EdgeDriver();
 			driver.navigate().to("Https://www.facebook.com");
 			driver.manage().window().maximize();
 			Thread.sleep(6000);
 		  }else if(window.equalsIgnoreCase("Firefox")) {
-			  System.setProperty("webdriver.gecko.driver", "C:\\Users\\fwzna\\eclipse-workspace\\AutomationRiview\\Drivers\\geckodriver.exe");
+			  System.setProperty("webdriver.gecko.driver",windows+"\\Drivers\\geckodriver.exe");
 			    driver= new FirefoxDriver();
 				driver.navigate().to("Https://www.facebook.com");
 				driver.manage().window().maximize();
@@ -57,7 +60,8 @@ public class Utility {
 		  String sk=dt.toString().replace(" ", "_").replace(":", "_");
 		  System.out.println(sk);
 		  System.out.println(dt);
+		  String windows =System.getProperty("user.dir");
 		  File screenshorts= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		  FileHandler.copy(screenshorts,  new File("C:\\Users\\fwzna\\eclipse-workspace\\AutomationRiview\\Pivtures\\"+sk+"ShotOfPage.jpg"));
+		  FileHandler.copy(screenshorts,  new File(windows+"\\Pivtures\\"+sk+"ShotOfPage.jpg"));
 	  }
 }

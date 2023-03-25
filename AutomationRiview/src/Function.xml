@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Adhoc" parallel="tests" thread-count="6"> 
+<suite name="Adhoc" >     <!-- parallel="tests" thread-count="6"   -->
+<listeners>
+<listener class-name="Ilisteners.Ilistener"></listener>
+</listeners>
 <!--<suite name="Adhoc">  if for single opening browser  -->  
   <test name="RegressionOfFirefox">
   <parameter name="browsers" value="Firefox"></parameter>
     <classes>
-       <class name="piit.AutomationRiview.browsersd"></class>
-       <class name="piit.AutomationRiview.Signin"></class>   
+    <class name="piit.AutomationRiview.DtaProviders"></class>
+ <!--  <class name="piit.AutomationRiview.browsersd"></class>
+       <class name="piit.AutomationRiview.Signin"></class>    
     </classes>
   </test>
   <test name="RegressionOfEdge">
   <parameter name="browsers" value="Edge"></parameter>
     <classes>
-       <class name="piit.AutomationRiview.browsersd"></class>
-       <class name="piit.AutomationRiview.Signin"></class>   
+    <class name="piit.AutomationRiview.DtaProviders"></class>
+   <class name="piit.AutomationRiview.browsersd"></class>
+       <class name="piit.AutomationRiview.Signin"></class> -->   
     </classes>
   </test>
 </suite>

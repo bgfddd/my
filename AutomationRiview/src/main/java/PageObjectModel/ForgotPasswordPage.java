@@ -19,7 +19,7 @@ public class ForgotPasswordPage {
 	}
 	public void UseId() {
 		Id.sendKeys("John@mail.com");
-		
+		 
 	} 
 	public void SearchButtonClick() {
 		SearchButtonClick.click();
